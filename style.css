@@ -1,0 +1,558 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: 100%;
+}
+
+html{
+    font-size: 62.5%; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 1rem; 
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    z-index: 2;
+}
+
+nav img {
+    float: left;
+    width: 7rem; 
+    height: 7rem;
+    margin-right: 40rem; 
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin-left: 8rem;
+}
+
+.nav-item {
+    padding: 0 1.5rem; 
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem; 
+}
+
+.nav-item a:hover {
+    color: rgb(165, 42, 42);
+}
+
+.nav-item a.active{
+    color: #8E2F01;
+    font-weight: bolder;
+}
+
+
+a.nav-button{
+    text-decoration: none;
+    color: white !important;
+    background-color: #8E2F01;
+    padding: 1.2rem 2.4rem; 
+    border-radius: 0.4rem;
+}
+
+a.nav-button:hover{
+    color: white;
+    background-color: #642200;
+}
+
+/* section 1 css style */
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0 0; 
+}
+
+.section-1 .container {
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 2rem; 
+}
+
+.section-1 .row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.section-1 .col-1-of-2 {
+    flex-basis: 48%; 
+    text-align: left; 
+}
+
+.section-1 .col-1-of-2 span{
+    color: #8E2F01;
+}
+
+.section-1 h1 {
+    font-size: 5.3rem; 
+    margin-bottom: 2rem; 
+    color: #132238;
+}
+
+.section-1 p {
+    font-size: 1.8rem; 
+    margin-bottom: 2rem; 
+    color: #556070;
+    line-height: 2.5rem;
+}
+
+.section-1 .btn {
+    text-decoration: none;
+    color: white;
+    background-color: #8E2F01; 
+    padding: 1.2rem 2.4rem; 
+    border-radius: 0.4rem; 
+    font-size: 1.5rem;
+}
+
+.section-1 .btn:hover{
+    background-color: #642200; 
+}
+
+.section-1 .content-box {
+    float: left; /* Floats each content box to the left */
+    width: 30%; /* Sets the width of each box to 30% of their parent container */
+    margin-top: 10rem;
+    margin-right: 4px;
+    background-color: #FFEDE4;
+    border-radius: 4px;
+    padding: 1rem 2.7rem;
+}
+
+.section-1 .content-box h1{
+    font-size: 3rem;
+    color: #424E60;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.section-1 .content-box p{
+    font-size: 1.3rem;
+    color: #697484;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* section 2 css style */
+.sec-2{
+    margin: 15rem 9rem 9rem 8rem;
+}
+
+.sec-2 .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
+    grid-gap: 20px; /* Adjusts the gap between grid items */
+    text-align: center; /* Centers the text */
+}
+
+.sec-2 .grid-item {
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.sec-2 .header-item h1{
+    font-weight: bold; /* Makes header text bold */
+    color: #132238;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.sec-2 .header-item p{
+    color: #87909D;
+    font-size: 1.7rem;
+    font-weight: 400;
+}
+
+.sec-2 .grid-item img {
+    max-width: 300px; /* Limits image size */
+    margin: 0 auto; /* Centers images horizontally */
+}
+
+.sec-2 .grid-item p{
+    font-size: 1.3rem;
+    float: left;
+    padding-left: 4.9rem;
+    padding-top: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 1.5rem;
+}
+
+.sec-2 .b-t-n {
+    text-decoration: none;
+    color: white;
+    background-color: #8E2F01; 
+    padding: 1.2rem 2.4rem; 
+    border-radius: 0.4rem; 
+    font-size: 1.5rem;
+}
+
+.sec-2 .b-t-n:hover{
+    background-color: #642200; 
+}
+
+.sec-2 .header-item {
+    margin-top: 30px;
+}
+
+.color{
+    background-color: #E6E8EB;
+}
+
+/* section 3 css style */
+.sec-3{
+    background-color: #132238;
+    text-align: center;
+    padding-bottom: 7rem;
+}
+
+.sec-3 h1{
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+    color: white;
+    padding-top: 8rem;
+}
+
+.sec-3 p{
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    color: #A5ACB5;
+    font-weight: 400;
+}
+
+.sec-3 a{
+    text-decoration: none;
+    color: white;
+    background-color: #8E2F01; 
+    padding: 1.2rem 2.4rem; 
+    border-radius: 0.4rem; 
+    font-size: 1.5rem;
+}
+
+.sec-3 a:hover{
+    background-color: #642200; 
+}
+
+/* section 4 css style */
+
+.sec-4{
+    margin: 0 9rem 0 8rem;
+}
+
+.sec-4 .mother-contain-er{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    box-shadow: 0 0 5rem rgba(0,0,0,0.1); 
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    margin-bottom: -1rem;
+}
+
+.sec-4 .mother-contain-er div{
+    float: left;
+}
+
+.sec-4 div.left{
+    padding: 9rem 0 5rem 5rem;
+}
+
+.sec-4 div.left h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #132238;
+    margin-bottom: 0.7rem;
+}
+
+.sec-4 div.left > p{
+    color: #87909D;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.sec-4 p.og{
+    display: inline-flex;
+    flex-direction: row ;
+    margin-bottom: 2rem;
+ }
+
+ .sec-4 span.con-tent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    line-height: 1rem;
+    padding-left: 1rem;
+}
+
+.sec-4 span.con-tent span.a-d-d{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #424E60;
+}
+
+.sec-4 span.con-tent span.nkt{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #132238;
+}
+
+.sec-4 p.space{
+    margin-top: 5rem;
+}
+
+.sec-4 p.space a{
+    margin-right: 4rem;
+}
+
+.sec-4 div.right{
+    padding: 5rem;
+}
+
+.sec-4 div.right p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #87909D;
+    line-height: 1.7rem;
+}
+
+.sec-4 #text{
+    padding: 1rem 23rem 1rem 1rem;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.sec-4 #tel{
+    padding: 1rem 23rem 1rem 1rem;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.sec-4 #budget, #product{
+    padding: 1rem 2.2rem 1rem 1rem;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.sec-4 textarea{
+    padding: 1rem 24.4rem 7rem 1rem;
+    margin-top: 1rem;
+    outline: none;
+}
+
+.sec-4 button{
+    background-color: #8E2F01;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1rem 2rem; 
+    border-radius: 0.4rem; 
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    background-color: #2B384C;
+    padding: 20px 0;
+    color: white;
+    height: 20rem;
+}
+
+footer .nav-menu {
+    display: flex;
+    list-style: none;
+    margin-left: 8rem;
+}
+
+footer .nav-item {
+    padding: 0 1.5rem; 
+}
+
+ footer .nav-item a {
+    text-decoration: none;
+    color: #F0F1F3 !important;
+    font-size: 1.7rem; 
+}
+
+footer .nav-item a:hover {
+    color: brown;
+}
+
+footer a.thick{
+    font-weight: bolder;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+
+.footer-left img {
+    max-width: 100px; 
+    border-radius: 1rem;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-right {
+    text-align: right;
+    font-size: 1.7rem;
+}
+
+
+
+
+/* For screens smaller than 768px */
+@media (max-width: 768px) {
+    html{
+        font-size: 50%;
+    }
+
+    nav img {
+        margin-right: 10px;
+    }
+
+    a.nav-button{
+        text-decoration: none;
+        color: white;
+        background-color: #8E2F01;
+        padding: 1rem 1rem; 
+        border-radius: 0.4rem;
+    }
+
+    .section-1 .col-1-of-2 {
+        flex-basis: 100%; 
+    }
+
+    .sec-2 .grid-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); /* Creates 1 columns */
+        grid-gap: 20px; /* Adjusts the gap between grid items */
+        text-align: center; /* Centers the text */
+    }
+    
+    .sec-4 .mother-contain-er div{
+        float: left;
+        border-radius: 3rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    }
+
+    footer {
+        background-color: #2B384C;
+        padding: 20px 0;
+        color: white;
+        height: 35rem;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding-top: 5rem;
+        flex-direction: column;
+    }
+
+    .footer-left img {
+        width: 200px; 
+        height: 100px;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .footer-center {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .sec-4 #budget, #product{
+        outline: none;
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .sec-4 #text{
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+    
+    .sec-4 #tel{
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+
+    .sec-4 textarea{
+        width: 100%;
+        margin-top: 1rem;
+        outline: none;
+    }
+
+
+}
+
+/* For screens smaller than 500px */
+@media (max-width: 500px) {
+    html{
+        font-size: 45%;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    nav img {
+        width: 5rem; 
+        height: 5rem;
+    }
+
+    .section-1 h1 {
+        font-size: 3.5rem; 
+    }
+
+    a.nav-button{
+        display: none;
+    }
+
+    .nav-item a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem; 
+    }
+
+    .sec-4 #budget, #product{
+        padding: 1rem 7.2rem 1rem 1rem;
+        outline: none;
+        margin-top: 1rem;
+    }
+
+}
