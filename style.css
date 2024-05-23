@@ -560,6 +560,7 @@ footer a.thick{
     .section-1 h1 {
         font-size: 3.5rem;
     }
+    
 
     .section-1 .col-1-of-2 {
         flex-basis: 48%; 
@@ -567,7 +568,17 @@ footer a.thick{
         justify-content: center;
     }
 
+    .sec-2 .header-item p{
+        color: #87909D;
+        float: left;
+        font-size: 2rem;
+        font-weight: 400;
+        /* text-align-last: left; */
+    }
 
+    .sec-2 .header-item p br{
+        display: none;
+    }
 
     a.nav-button{
         display: none;
@@ -618,6 +629,12 @@ footer a.thick{
         overflow: hidden;
         width: 100%;
         padding-right: 3rem;
+    }
+
+    .footer-left img {
+        width: 45px !important;
+        height: 45px !important; 
+        border-radius: 1rem;
     }
 
 }

@@ -829,8 +829,12 @@ footer a.thick{
         width: 100%;
     }
 
+    .section-2 .col-1-of-2 div{
+        width: 38%;
+    }
+
     .section-2 .col-1-of-2 div a{
-        margin-right: 0.5rem;
+        margin-right: 2rem;
     }
 
     .section-3{
@@ -841,8 +845,12 @@ footer a.thick{
         width: 100%;
     }
 
+    .section-3 .col-1-of-2 div{
+        width: 38%;
+    }
+
     .section-3 .col-1-of-2 div a{
-        margin-right: 0.5rem;
+        margin-right: 2rem;
     }
 
     .section-4{
@@ -853,8 +861,12 @@ footer a.thick{
         width: 100%;
     }
 
+    .section-4 .col-1-of-2 div{
+        width: 38%;
+    }
+
     .section-4 .col-1-of-2 div a{
-        margin-right: 0.5rem;
+        margin-right: 2rem;
     }
 
     .section-5{
@@ -865,8 +877,12 @@ footer a.thick{
         width: 100%;
     }
 
+    .section-5 .col-1-of-2 div{
+        width: 38%;
+    }
+
     .section-5 .col-1-of-2 div a{
-        margin-right: 0.5rem;
+        margin-right: 2rem;
     }
 
     .section-6{
@@ -877,8 +893,12 @@ footer a.thick{
         width: 100%;
     }
 
+    .section-6 .col-1-of-2 div{
+        width: 38%;
+    }
+
     .section-6 .col-1-of-2 div a{
-        margin-right: 0.5rem;
+        margin-right: 2rem;
     }
 
 
@@ -978,7 +998,11 @@ footer a.thick{
         box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
     }
 
-
+    .footer-left img {
+        width: 45px !important;
+        height: 45px !important; 
+        border-radius: 1rem;
+    }
 }
 
 /* For screens smaller than 350px */
