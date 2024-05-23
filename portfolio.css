@@ -801,6 +801,10 @@ footer a.thick{
         font-size: 3.5rem; 
     }
 
+    .col-2-of-2{
+        padding: 1rem;
+    }
+
     a.nav-button{
         display: none;
     }
