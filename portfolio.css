@@ -588,6 +588,7 @@ a.nav-button:hover{
     padding: 1rem 24.4rem 7rem 1rem;
     margin-top: 1rem;
     outline: none;
+    resize: none;
 }
 
 .sec-8 button{
