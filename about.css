@@ -715,6 +715,734 @@ footer a.thick{
     font-size: 1.7rem;
 }
 
+
+/* For screens smaller than 1024px */
+@media (max-width: 1024px){
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    max-width: 100%;
+}
+
+html{
+    font-size: 58%; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 1rem; 
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+    z-index: 2;
+}
+
+nav img {
+    float: left;
+    width: 7rem; 
+    height: 7rem;
+    margin-right: 30rem; 
+}
+
+.nav-menu {
+    display: flex;
+    list-style: none;
+    margin-left: 8rem;
+}
+
+.nav-item {
+    padding: 0 1.5rem; 
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.7rem; 
+}
+
+.nav-item a:hover {
+    color: rgb(165, 42, 42);
+}
+
+.nav-item a.active{
+    color: #8E2F01;
+    font-weight: bolder;
+}
+
+a.nav-button{
+    text-decoration: none;
+    color: white !important;
+    background-color: #8E2F01;
+    padding: 1.2rem 2.4rem; 
+    border-radius: 0.4rem;
+}
+
+a.nav-button:hover{
+    color: white;
+    background-color: #642200;
+}
+
+/* section 1 css style */
+.section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0 0;
+}
+
+.section-1 .col-1-of-2 {
+    flex-basis: 63%; 
+    text-align: left; 
+}
+
+.section-1 .col-1-of-2 span{
+    color: #8E2F01;
+}
+
+.section-1 h1 {
+    font-size: 6.3rem; 
+    margin-bottom: 2rem; 
+    color: #132238;
+    text-align: center;
+}
+
+.section-1 p {
+    font-size: 1.7rem; 
+    margin-bottom: 4rem; 
+    color: #556070;
+    line-height: 2.5rem;
+    text-align-last: center;
+}
+
+.section-1 .btn {
+    text-decoration: none;
+    color: white;
+    background-color: #8E2F01; 
+    padding: 1.2rem 2.4rem; 
+    border-radius: 0.4rem; 
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.section-1 .btn:hover{
+    background-color: #642200; 
+}
+
+.section-1 .content-box {
+    float: left; /* Floats each content box to the left */
+    width: 30%; /* Sets the width of each box to 30% of their parent container */
+    margin-top: 7rem;
+    margin-right: 4px;
+    background-color: #FFEDE4;
+    border-radius: 4px;
+    padding: 1rem 2.7rem;
+}
+
+.section-1 .content-box h1{
+    font-size: 3rem;
+    color: #132238;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.section-1 .content-box p{
+    font-size: 1.3rem;
+    color: #556070;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+/* section 2 css style */
+.section-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem 9rem 9rem 8rem;
+    margin-top: 20rem;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.1); 
+    padding-bottom: 8rem;
+}
+
+.section-2 div{
+    width: 45%;
+}
+
+.section-2 div h1{
+    font-size: 4rem;
+    color: #132238;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.section-2 div p{
+    font-size: 2rem;
+    color: #556070;
+    margin-bottom: 1rem;
+    line-height: 2.4rem;
+}
+
+.section-2 div p span{
+    text-decoration: underline;
+    text-decoration-color: #FFC8C8;
+}
+
+.section-2 hr{
+    border: 2px solid #8E2F01;
+    margin-left: 25rem;
+    margin-top: 3rem;
+}
+
+.section-2 .col-1-of-2 div{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1.5rem 0;
+    position: relative;
+    top: -20px;
+    left: 11rem;
+    width: 48%;
+    text-align: center;
+    box-shadow: 0 rem 5rem rgba(0,0,0,0.1); 
+}
+
+.section-2 .col-1-of-2 div a{
+    margin-right: 3rem;
+}
+
+/* section 3 css style */
+.section-3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem 8rem 9rem 13rem;
+    gap: 11rem;
+    flex-direction: row-reverse;
+    margin-top: 20rem;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.1); 
+    padding-bottom: 8rem;
+}
+
+.section-3 div{
+    width: 40%;
+}
+
+.section-3 div h1{
+    font-size: 4rem;
+    color: #132238;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.section-3 div p{
+    font-size: 2rem;
+    color: #556070;
+    margin-bottom: 1rem;
+    line-height: 2.4rem;
+}
+
+.section-3 hr{
+    border: 2px solid #8E2F01;
+    margin-left: 25rem;
+    margin-top: 3rem;
+}
+
+.section-3 .col-1-of-2 div{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1.5rem 0;
+    position: relative;
+    top: -20px;
+    left: 10rem;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 rem 5rem rgba(0,0,0,0.1); 
+}
+
+.section-3 .col-1-of-2 div a{
+    margin-right: 3rem;
+}
+
+/* section 4 css style */
+.section-4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem 9rem 9rem 8rem;
+    margin-top: 20rem;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.1); 
+    padding-bottom: 8rem;
+}
+
+.section-4 div{
+    width: 45%;
+}
+
+.section-4 div h1{
+    font-size: 4rem;
+    color: #132238;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.section-4 div p{
+    font-size: 2rem;
+    color: #556070;
+    margin-bottom: 1rem;
+    line-height: 2.4rem;
+}
+
+.section-4 div p span{
+    text-decoration: underline;
+    text-decoration-color: #FFC8C8;
+}
+
+.section-4 hr{
+    border: 2px solid #8E2F01;
+    margin-left: 25rem;
+    margin-top: 3rem;
+}
+
+.section-4 .col-1-of-2 div{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1.5rem 0;
+    position: relative;
+    top: -20px;
+    left: 11rem;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 rem 5rem rgba(0,0,0,0.1); 
+}
+
+.section-4 .col-2-of-2{
+    padding: 3rem;
+}
+
+.section-4 .col-1-of-2 div a{
+    margin-right: 3rem;
+}
+
+/* section 5 css style */
+.section-5{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem 8rem 9rem 13rem;
+    gap: 11rem;
+    flex-direction: row-reverse;
+    margin-top: 20rem;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.1); 
+    padding-bottom: 8rem;
+}
+
+.section-5 div{
+    width: 40%;
+}
+
+.section-5 div h1{
+    font-size: 4rem;
+    color: #132238;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.section-5 div p{
+    font-size: 2rem;
+    color: #556070;
+    margin-bottom: 1rem;
+    line-height: 2.4rem;
+}
+
+.section-5 hr{
+    border: 2px solid #8E2F01;
+    margin-left: 25rem;
+    margin-top: 3rem;
+}
+
+.section-5 .col-1-of-2 div{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1.5rem 0;
+    position: relative;
+    top: -20px;
+    left: 10rem;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 rem 5rem rgba(0,0,0,0.1); 
+}
+
+.section-5 .col-1-of-2 div a{
+    margin-right: 3rem;
+}
+
+/* section 6 css style */
+.section-6{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem 9rem 9rem 8rem;
+    margin-top: 20rem;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.1); 
+    padding-bottom: 8rem;
+}
+
+.section-6 div{
+    width: 45%;
+}
+
+.section-6 div h1{
+    font-size: 4rem;
+    color: #132238;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.section-6 div p{
+    font-size: 2rem;
+    color: #556070;
+    margin-bottom: 1rem;
+    line-height: 2.4rem;
+}
+
+.section-6 div p span{
+    text-decoration: underline;
+    text-decoration-color: #FFC8C8;
+}
+
+.section-6 hr{
+    border: 2px solid #8E2F01;
+    margin-left: 25rem;
+    margin-top: 3rem;
+}
+
+.section-6 .col-1-of-2 div{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1.5rem 0;
+    position: relative;
+    top: -20px;
+    left: 8rem;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 rem 5rem rgba(0,0,0,0.1); 
+}
+
+.section-6 .col-1-of-2 div a{
+    margin-right: 3rem;
+}
+
+.section-6 .col-2-of-2{
+    padding: 3rem;
+}
+
+/* section 7 css style */
+.section-7{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem 8rem 9rem 13rem;
+    gap: 11rem;
+    flex-direction: row-reverse;
+    margin-top: 20rem;
+    box-shadow: 0 5px 4px rgba(0,0,0,0.1); 
+    padding-bottom: 8rem;
+}
+
+.section-7 div{
+    width: 40%;
+}
+
+.section-7 div h1{
+    font-size: 4rem;
+    color: #132238;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.section-7 div p{
+    font-size: 2rem;
+    color: #556070;
+    margin-bottom: 1rem;
+    line-height: 2.4rem;
+}
+
+.section-7 .col-1-of-2 div{
+    background-color: white;
+    border-radius: 5px;
+    padding: 1.5rem 0;
+    position: relative;
+    top: -20px;
+    left: 10rem;
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 rem 5rem rgba(0,0,0,0.1); 
+}
+
+.section-7 .col-1-of-2 div a{
+    margin-right: 3rem;
+}
+
+.section-7 .b-t-n {
+    text-decoration: none;
+    color: white;
+    background-color: #8E2F01; 
+    padding: 1.2rem 2.4rem; 
+    border-radius: 0.4rem; 
+    font-size: 1.5rem;
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.section-7 .b-t-n:hover{
+    background-color: #642200; 
+}
+
+.section-7 .col-2-of-2 div{
+    float: left;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.section-7 .b-t-n-2 {
+    text-decoration: none;
+    color: #8E2F01;
+    background-color: transparent; 
+    padding: 1.2rem 2.4rem; 
+    border-radius: 0.4rem; 
+    border: 1px solid #8E2F01;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-7 .b-t-n-2:hover{
+    background-color: transparent; 
+}
+
+/* section 8 css style */
+.sec-8{
+    background-color: #132238;
+    text-align: center;
+    padding-bottom: 7rem;
+}
+
+.sec-8 h1{
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+    color: white;
+    padding-top: 8rem;
+}
+
+.sec-8 p{
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    color: #A5ACB5;
+    font-weight: 400;
+}
+
+.sec-8 a{
+    text-decoration: none;
+    color: white;
+    background-color: #8E2F01; 
+    padding: 1.2rem 2.4rem; 
+    border-radius: 0.4rem; 
+    font-size: 1.5rem;
+}
+
+.sec-8 a:hover{
+    background-color: #642200; 
+}
+
+/* section 9 css style */
+
+.sec-9{
+    margin: 0 9rem 0 8rem;
+}
+
+.sec-9 .mother-contain-er{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    box-shadow: 0 0 5rem rgba(0,0,0,0.1); 
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    margin-bottom: -1rem;
+    padding-top: 3rem;
+}
+
+.sec-9 .mother-contain-er div{
+    float: left;
+}
+
+.sec-9 div.left{
+    padding: 9rem 0 5rem 5rem;
+}
+
+.sec-9 div.left h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #132238;
+    margin-bottom: 0.7rem;
+}
+
+.sec-9 div.left > p{
+    color: #87909D;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.sec-9 p.og{
+    display: inline-flex;
+    flex-direction: row ;
+    margin-bottom: 2rem;
+ }
+
+ .sec-9 span.con-tent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    line-height: 1rem;
+    padding-left: 1rem;
+}
+
+.sec-9 span.con-tent span.a-d-d{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #424E60;
+}
+
+.sec-9 span.con-tent span.nkt{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #132238;
+}
+
+.sec-9 p.space{
+    margin-top: 5rem;
+}
+
+.sec-9 p.space a{
+    margin-right: 4rem;
+}
+
+.sec-9 div.right{
+    padding: 5rem;
+}
+
+.sec-9 div.right p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #87909D;
+    line-height: 1.7rem;
+}
+
+.sec-9 #text{
+    padding: 1rem 23rem 1rem 1rem;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.sec-9 #tel{
+    padding: 1rem 23rem 1rem 1rem;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.sec-9 #budget, #product{
+    padding: 1rem 1.5rem 1rem 1rem;
+    outline: none;
+    margin-top: 1rem;
+}
+.sec-9 textarea{
+    padding: 1rem 25.7rem 7rem 1rem;
+    margin-top: 1rem;
+    outline: none;
+    resize: none;
+}
+
+.sec-9 button{
+    background-color: #8E2F01;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1rem 2rem; 
+    border-radius: 0.4rem; 
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+/* footer */
+footer {
+    background-color: #2B384C;
+    padding: 20px 0;
+    color: white;
+    height: 20rem;
+}
+
+footer .nav-menu {
+    display: flex;
+    list-style: none;
+    margin-left: 8rem;
+}
+
+footer .nav-item {
+    padding: 0 1.5rem; 
+}
+
+ footer .nav-item a {
+    text-decoration: none;
+    color: #F0F1F3 !important;
+    font-size: 1.7rem; 
+}
+
+footer .nav-item a:hover {
+    color: brown;
+}
+
+footer a.thick{
+    font-weight: bolder;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+
+.footer-left img {
+    max-width: 100px; 
+    border-radius: 1rem;
+}
+
+.footer-center {
+    text-align: center;
+}
+
+.footer-right {
+    text-align: right;
+    font-size: 1.7rem;
+}
+}
+
 /* For screens smaller than 768px */
 @media (max-width: 768px) {
     html{
