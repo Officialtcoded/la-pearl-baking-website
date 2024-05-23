@@ -432,7 +432,7 @@ footer a.thick{
 
 
 /* For screens smaller than 1024px */
- @media (max-width: 1024px){
+ @media screen and (min-width: 767px) and (max-width: 1060px){
     *{
         margin: 0;
         padding: 0;
@@ -443,6 +443,9 @@ footer a.thick{
     
     html{
         font-size: 58%; 
+    }
+    body{
+        overflow-x: hidden;
     }
     
     nav {
@@ -462,7 +465,7 @@ footer a.thick{
         float: left;
         width: 7rem; 
         height: 7rem;
-        margin-right: 25rem; 
+        margin-right: 15rem; 
     }
     
     .nav-menu {
@@ -869,7 +872,7 @@ footer a.thick{
  }
 
 
- @media (max-width:  768px) {
+ @media (max-width:  766px) {
     html{
         font-size: 50%;
     }

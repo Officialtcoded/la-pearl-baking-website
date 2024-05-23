@@ -717,7 +717,7 @@ footer a.thick{
 
 
 /* For screens smaller than 1024px */
-@media (max-width: 1024px){
+@media screen and (min-width: 767px) and (max-width: 1060px){
     *{
     margin: 0;
     padding: 0;
