@@ -161,6 +161,7 @@ a.nav-button:hover{
     grid-template-columns: repeat(3, 1fr); /* Creates 3 columns */
     grid-gap: 20px; /* Adjusts the gap between grid items */
     text-align: center; /* Centers the text */
+    justify-content: center;
 }
 
 .sec-2 .grid-item {
@@ -431,7 +432,7 @@ footer a.thick{
 
 
 /* For screens smaller than 768px */
-@media (max-width: 1024px) and (min-width: 834px) {
+@media (max-width: 768px) {
     html{
         font-size: 50%;
     }
@@ -517,12 +518,114 @@ footer a.thick{
         margin-top: 1rem;
         outline: none;
     }
+
+
 }
 
 /* For screens smaller than 500px */
-@media (max-width: 768px) and (min-width: 480px) {
+@media (max-width: 500px) {
     html{
         font-size: 45%;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    nav img {
+        width: 5rem; 
+        height: 5rem;
+    }
+
+    .nav-menu {
+        display: flex;
+        list-style: none;
+        margin-left: 4rem;
+    }
+
+    .nav-item a {
+        text-decoration: none;
+        color: black;
+        font-size: 1rem; 
+    }
+    
+    .section-1 .content-box p{
+        font-size: 1rem;
+    }
+
+    .section-1 .row{
+        flex-direction: column;
+    }
+
+    .section-1 h1 {
+        font-size: 3.5rem;
+    }
+
+    .section-1 .col-1-of-2 {
+        flex-basis: 48%; 
+        text-align: left; 
+        justify-content: center;
+    }
+
+
+
+    a.nav-button{
+        display: none;
+    }
+
+    .nav-item a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem; 
+    }
+
+    .sec-4{
+        margin: 0;
+    }
+
+    .sec-4 .mother-contain-er{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec-4 #text{
+        padding-right: 3rem;
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+    
+    .sec-4 #tel{
+        /* padding: 1rem 23rem 1rem 1rem; */
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+        padding-right: 3rem;
+    }
+
+    .sec-4 #budget, #product{
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+
+    .sec-4 textarea::placeholder{
+        font-size: 1.8rem;
+        float: left;
+    }
+
+    .sec-4 textarea{
+        overflow: hidden;
+        width: 100%;
+        padding-right: 3rem;
+    }
+
+}
+
+/* For screens smaller than 350px */
+@media (max-width: 350px) {
+    html{
+        font-size: 42%;
     }
     
     body{
@@ -538,6 +641,12 @@ footer a.thick{
         font-size: 3.5rem; 
     }
 
+    .section-1 .col-1-of-2 {
+        flex-basis: 48%; 
+        text-align: center; 
+    }
+    
+
     a.nav-button{
         display: none;
     }
@@ -548,8 +657,23 @@ footer a.thick{
         font-size: 1.5rem; 
     }
 
+    .sec-4 #text{
+        /* padding: 1rem 23rem 1rem 1rem; */
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+    
+    .sec-4 #tel{
+        /* padding: 1rem 23rem 1rem 1rem; */
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+
     .sec-4 #budget, #product{
-        padding: 1rem 7.2rem 1rem 1rem;
+        /* padding: 1rem 7.2rem 1rem 1rem; */
+        width: 100%;
         outline: none;
         margin-top: 1rem;
     }

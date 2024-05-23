@@ -756,6 +756,7 @@ footer a.thick{
         margin-right: 1rem;
     }
 
+
     .section-4 div{
         width: 100%;
     }
@@ -763,6 +764,7 @@ footer a.thick{
     .section-4 .col-1-of-2 div a{
         margin-right: 1rem;
     }
+
 
     .section-5 div{
         width: 100%;
@@ -772,6 +774,7 @@ footer a.thick{
         margin-right: 1rem;
     }
 
+
     .section-6 div{
         width: 100%;
     }
@@ -780,6 +783,7 @@ footer a.thick{
         margin-right: 1rem;
     }
 
+
     .section-7 div{
         width: 100%;
     }
@@ -787,8 +791,6 @@ footer a.thick{
     .section-7 .col-1-of-2 div a{
         margin-right: 1rem;
     }
-
-    
     
     .sec-4 .mother-contain-er div{
         float: left;
@@ -867,6 +869,17 @@ footer a.thick{
         height: 5rem;
     }
 
+    .nav-menu {
+        display: flex;
+        list-style: none;
+        margin-left: 4rem;
+    }
+
+    .section-1 .content-box p{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
     .section-1 h1 {
         font-size: 3.5rem; 
     }
@@ -886,12 +899,20 @@ footer a.thick{
         text-align: left; 
     }
 
+    .section-2{
+        margin: 15rem 3rem 9rem 3rem;
+    }
+
     .section-2 div{
         width: 100%;
     }
 
     .section-2 .col-1-of-2 div a{
         margin-right: 0.5rem;
+    }
+
+    .section-3{
+        margin: 15rem 3rem 9rem 3rem;
     }
 
     .section-3 div{
@@ -906,12 +927,20 @@ footer a.thick{
         margin-left: 0rem !important;
     }
 
+    .section-4{
+        margin: 15rem 3rem 9rem 3rem;
+    }
+
     .section-4 div{
         width: 100%;
     }
 
     .section-4 .col-1-of-2 div a{
         margin-right: 0.5rem;
+    }
+
+    .section-5{
+        margin: 15rem 3rem 9rem 3rem;
     }
 
     .section-5 div{
@@ -922,12 +951,20 @@ footer a.thick{
         margin-right: 0.2rem;
     }
 
+    .section-6{
+        margin: 15rem 3rem 9rem 3rem;
+    }
+
     .section-6 div{
         width: 100%;
     }
 
     .section-6 .col-1-of-2 div a{
         margin-right: 0.5rem;
+    }
+
+    .section-7{
+        margin: 15rem 3rem 9rem 3rem;
     }
 
     .section-7 div{
@@ -938,10 +975,45 @@ footer a.thick{
         margin-right: 0.2rem;
     }
 
-    .sec-9 #budget, #product{
-        padding: 1rem 7.2rem 1rem 1rem;
+    .sec-9{
+        margin: 0;
+    }
+
+    .sec-9 .mother-contain-er{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec-9 #text{
+        padding-right: 3rem;
+        width: 100%;
         outline: none;
         margin-top: 1rem;
+    }
+    
+    .sec-9 #tel{
+        /* padding: 1rem 23rem 1rem 1rem; */
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+        padding-right: 3rem;
+    }
+
+    .sec-9 #budget, #product{
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+
+    .sec-9 textarea::placeholder{
+        font-size: 1.8rem;
+        float: left;
+    }
+
+    .sec-9 textarea{
+        overflow: hidden;
+        width: 100%;
+        padding-right: 3rem;
     }
     
     .sec-4 .mother-contain-er div{
@@ -950,5 +1022,63 @@ footer a.thick{
         box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
     }
 
+
+}
+
+/* For screens smaller than 350px */
+@media (max-width: 350px) {
+    html{
+        font-size: 42%;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+
+    nav img {
+        width: 5rem; 
+        height: 5rem;
+    }
+
+    .section-1 h1 {
+        font-size: 3.5rem; 
+    }
+
+    .section-1 .col-1-of-2 {
+        flex-basis: 48%; 
+        text-align: center; 
+    }
+    
+
+    a.nav-button{
+        display: none;
+    }
+
+    .nav-item a {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5rem; 
+    }
+
+     #text{
+        /* padding: 1rem 23rem 1rem 1rem; */
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+    
+     #tel{
+        /* padding: 1rem 23rem 1rem 1rem; */
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+
+     #budget, #product{
+        /* padding: 1rem 7.2rem 1rem 1rem; */
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
 
 }

@@ -786,6 +786,17 @@ footer a.thick{
         height: 5rem;
     }
 
+    .nav-menu {
+        display: flex;
+        list-style: none;
+        margin-left: 4rem;
+    }
+
+    .section-1 .content-box p{
+        font-size: 1rem;
+        line-height: 1rem;
+    }
+
     .section-1 h1 {
         font-size: 3.5rem; 
     }
@@ -804,6 +815,11 @@ footer a.thick{
         flex-basis: 80%; 
         text-align: left; 
     }
+    
+    .section-2 .col-2-of-2 {
+        flex-basis: 80%; 
+        text-align: left;
+    }
 
     .section-2 div{
         width: 100%;
@@ -811,6 +827,10 @@ footer a.thick{
 
     .section-2 .col-1-of-2 div a{
         margin-right: 0.5rem;
+    }
+
+    .section-3{
+        margin: 15rem 3rem 9rem 3rem;
     }
 
     .section-3 div{
@@ -821,12 +841,20 @@ footer a.thick{
         margin-right: 0.5rem;
     }
 
+    .section-4{
+        margin: 15rem 3rem 9rem 3rem;
+    }
+
     .section-4 div{
         width: 100%;
     }
 
     .section-4 .col-1-of-2 div a{
         margin-right: 0.5rem;
+    }
+
+    .section-5{
+        margin: 15rem 3rem 9rem 3rem;
     }
 
     .section-5 div{
@@ -837,6 +865,10 @@ footer a.thick{
         margin-right: 0.5rem;
     }
 
+    .section-6{
+        margin: 15rem 3rem 9rem 3rem;
+    }
+
     .section-6 div{
         width: 100%;
     }
@@ -845,15 +877,48 @@ footer a.thick{
         margin-right: 0.5rem;
     }
 
-    .sec-7 div{
+
+    .sec-7{
+        margin: 0;
+    }
+
+    .sec-8 .mother-contain-er{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec-8 #text{
+        padding-right: 3rem;
         width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+    
+    .sec-8 #tel{
+        /* padding: 1rem 23rem 1rem 1rem; */
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+        padding-right: 3rem;
     }
 
-    .sec-7 .col-1-of-2 div a{
-        margin-right: 0.5rem;
+     #budget, #product{
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
     }
 
+     textarea::placeholder{
+        font-size: 1.8rem;
+        float: left;
+    }
 
+     textarea{
+        overflow: hidden;
+        width: 100%;
+        padding-right: 3rem;
+    }
+     
     .sec-8 div{
         width: 100%;
     }
@@ -862,6 +927,46 @@ footer a.thick{
         margin-right: 0.5rem;
     }
     
+    .sec-8{
+        margin: 0;
+    }
+
+    .sec-8 .mother-contain-er{
+        display: flex;
+        justify-content: center;
+    }
+
+    .sec-8 #text{
+        padding-right: 3rem;
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+    
+    .sec-8 #tel{
+        /* padding: 1rem 23rem 1rem 1rem; */
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+        padding-right: 3rem;
+    }
+
+    .sec-8 #budget, #product{
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+
+    .sec-8 textarea::placeholder{
+        font-size: 1.8rem;
+        float: left;
+    }
+
+    .sec-8 textarea{
+        overflow: hidden;
+        width: 100%;
+        padding-right: 3rem;
+    }
     
     .sec-4 .mother-contain-er div{
         float: left;
@@ -872,147 +977,10 @@ footer a.thick{
 
 }
 
-/* For screens smaller than 768px */
-@media (max-width: 768px) {
+/* For screens smaller than 350px */
+@media (max-width: 350px) {
     html{
-        font-size: 50%;
-    }
-
-    nav img {
-        margin-right: 10px;
-    }
-
-    a.nav-button{
-        text-decoration: none;
-        color: white;
-        background-color: #8E2F01;
-        padding: 1rem 1rem; 
-        border-radius: 0.4rem;
-        font-size: 1.1rem;
-    }
-
-
-    .section-1 .col-1-of-2 {
-        flex-basis: 80%; 
-        text-align: left; 
-    }
-
-    .section-2 div{
-        width: 100%;
-    }
-
-    .section-2 .col-1-of-2 div a{
-        margin-right: 1rem;
-    }
-
-    .section-3 div{
-        width: 100%;
-    }
-
-    .section-3 .col-1-of-2 div a{
-        margin-right: 1rem;
-    }
-
-    .section-4 div{
-        width: 100%;
-    }
-
-    .section-4 .col-1-of-2 div a{
-        margin-right: 1rem;
-    }
-
-    .section-5 div{
-        width: 100%;
-    }
-
-    .section-5 .col-1-of-2 div a{
-        margin-right: 1rem;
-    }
-
-    .section-6 div{
-        width: 100%;
-    }
-
-    .section-6 .col-1-of-2 div a{
-        margin-right: 1rem;
-    }
-
-    .sec-7 div{
-        width: 100%;
-    }
-
-    .sec-7 .col-1-of-2 div a{
-        margin-right: 1rem;
-    }
-
-    .sec-8 div{
-        width: 100%;
-    }
-
-    .sec-8 .col-1-of-2 div a{
-        margin-right: 1rem;
-    }
-
-    footer {
-        background-color: #2B384C;
-        padding: 20px 0;
-        color: white;
-        height: 35rem;
-    }
-
-    .footer-container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        max-width: 1200px;
-        margin: 0 auto;
-        padding-top: 5rem;
-        flex-direction: column;
-    }
-
-    .footer-left img {
-        width: 200px; 
-        height: 100px;
-        border-radius: 1rem;
-        margin-bottom: 2rem;
-    }
-
-    .footer-center {
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-
-    .sec-8 #budget, #product{
-        outline: none;
-        width: 100%;
-        margin-top: 1rem;
-    }
-
-    .sec-8 #text{
-        width: 100%;
-        outline: none;
-        margin-top: 1rem;
-    }
-    
-    .sec-8 #tel{
-        width: 100%;
-        outline: none;
-        margin-top: 1rem;
-    }
-
-    .sec-8 textarea{
-        width: 100%;
-        margin-top: 1rem;
-        outline: none;
-    }
-
-
-}
-
-/* For screens smaller than 480px */
-@media (max-width: 500px) {
-    html{
-        font-size: 45%;
+        font-size: 42%;
     }
     
     body{
@@ -1028,6 +996,12 @@ footer a.thick{
         font-size: 3.5rem; 
     }
 
+    .section-1 .col-1-of-2 {
+        flex-basis: 48%; 
+        text-align: center; 
+    }
+    
+
     a.nav-button{
         display: none;
     }
@@ -1038,53 +1012,23 @@ footer a.thick{
         font-size: 1.5rem; 
     }
 
-    .section-1 .col-1-of-2 {
-        flex-basis: 80%; 
-        text-align: left; 
-    }
-
-    .section-2 div{
+     #text{
+        /* padding: 1rem 23rem 1rem 1rem; */
         width: 100%;
+        outline: none;
+        margin-top: 1rem;
     }
-
-    .section-2 .col-1-of-2 div a{
-        margin-right: 0.5rem;
-    }
-
-    .section-3 div{
+    
+     #tel{
+        /* padding: 1rem 23rem 1rem 1rem; */
         width: 100%;
+        outline: none;
+        margin-top: 1rem;
     }
 
-    .section-3 .col-1-of-2 div a{
-        margin-right: 0.2rem;
-    }
-
-    .section-4 div{
+     #budget, #product{
+        /* padding: 1rem 7.2rem 1rem 1rem; */
         width: 100%;
-    }
-
-    .section-4 .col-1-of-2 div a{
-        margin-right: 0.2rem;
-    }
-
-    .section-5 div{
-        width: 100%;
-    }
-
-    .section-5 .col-1-of-2 div a{
-        margin-right: 0.2rem;
-    }
-
-    .section-6 div{
-        width: 100%;
-    }
-
-    .section-6 .col-1-of-2 div a{
-        margin-right: 0.2rem;
-    }
-
-    .sec-8 #budget, #product{
-        padding: 1rem 7.2rem 1rem 1rem;
         outline: none;
         margin-top: 1rem;
     }
