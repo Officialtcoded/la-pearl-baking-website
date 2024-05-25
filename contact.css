@@ -821,6 +821,12 @@ footer a.thick{
         height: 5rem;
     }
 
+    .nav-menu {
+        display: flex;
+        list-style: none;
+        margin-left: 4rem;
+    }
+
     .section-1 h1 {
         font-size: 3.5rem; 
     }
@@ -897,10 +903,27 @@ footer a.thick{
         padding-right: 3rem;
     }
 
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     .footer-left img {
-        width: 40px;
-        height: 40px;
+        width: 45px !important;
+        height: 45px !important; 
         border-radius: 1rem;
+        text-align: center;
+    }
+
+    .footer-center {
+        text-align: center;
+        padding-right: 5rem;
+    }
+    
+    .footer-right {
+        text-align: center;
+        font-size: 1.7rem;
     }
 
 }

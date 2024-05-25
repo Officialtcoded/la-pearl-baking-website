@@ -1482,6 +1482,14 @@ footer a.thick{
         flex-basis: 80%; 
         text-align: left; 
     }
+    .section-1 .content-box {
+        height: 10rem;
+    }
+    
+    .section-1 .content-box p{
+        font-size: 1.5rem;
+        line-height: 13px;
+    }
     
     .section-2 .col-2-of-2 {
         flex-basis: 80%; 
@@ -1661,10 +1669,27 @@ footer a.thick{
         box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
     }
 
+    .footer-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
     .footer-left img {
         width: 45px !important;
         height: 45px !important; 
         border-radius: 1rem;
+        text-align: center;
+    }
+
+    .footer-center {
+        text-align: center;
+        padding-right: 5rem;
+    }
+    
+    .footer-right {
+        text-align: center;
+        font-size: 1.7rem;
     }
 }
 
