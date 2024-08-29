@@ -68,6 +68,28 @@ a.nav-button:hover{
     background-color: #642200;
 }
 
+span.hamburger a{
+    color: #642200;
+    text-decoration: none;
+    font-size: 2.5rem;
+    padding: 1rem;
+    width: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+a.burger{
+    display: none;
+}
+
+a.hex{
+    display: none;
+}
+
+a.bar{
+    display: none;
+}
+
 /* section 1 css style */
 .section-1{
     display: flex;
@@ -1749,4 +1771,82 @@ footer a.thick{
         margin-top: 1rem;
     }
 
+}
+
+@media (max-width: 768px){
+
+
+    .show{
+        display: block;
+
+    }
+
+    nav img {
+        float: left;
+        width: 8rem; 
+        height: 8rem;
+        margin-right: 40rem; 
+    }
+
+    .nav-menu{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        list-style-type: none;
+        background-color: white;
+        gap: 6rem;
+        width: 300px;
+        height: 100vh;
+        padding-top: 8rem;
+        box-shadow: 2px 0px 0px rgba(0,0,0,0.1); 
+    }
+
+    .sub-nav{
+        position: absolute;
+        left: -10%;
+        top: 100%;
+        display: none;
+        transition: all 0.3s ease;
+    }
+
+    .sidebar{
+        display: block;
+        transition-timing-function: ease-in-out;
+    }
+
+    
+
+    .nav-item {
+        padding: 0 1.5rem;
+    }
+    
+    .nav-item a {
+        text-decoration: none;
+        color: black;
+        font-size: 3rem; 
+    }
+
+    a.nav-button{
+        text-decoration: none;
+        color: white !important;
+        background-color: #8E2F01;
+        padding: 1.2rem 7rem; 
+        border-radius: 0.4rem;
+    }
+
+    a.burger{
+        display: none;
+    }
+
+    a.bar{
+        display: block;
+    }
+    
+    .bar.to-hide{
+        display: none;
+    }
+    .hex.to-show{
+        display: block;
+    }
 }
