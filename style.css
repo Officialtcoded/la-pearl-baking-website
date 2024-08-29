@@ -10,7 +10,7 @@ html{
     font-size: 62.5%; 
 }
 
-nav {
+nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -337,6 +337,12 @@ a.nav-button:hover{
 }
 
 .sec-4 #text{
+    padding: 1rem 23rem 1rem 1rem;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.sec-4 #location{
     padding: 1rem 23rem 1rem 1rem;
     outline: none;
     margin-top: 1rem;
@@ -782,6 +788,11 @@ footer a.thick{
         outline: none;
         margin-top: 1rem;
     }
+     .sec-4 #location{
+        padding: 1rem 23rem 1rem 1rem;
+        outline: none;
+        margin-top: 1rem;
+    }
     
     .sec-4 #tel{
         padding: 1rem 23rem 1rem 1rem;
@@ -1145,6 +1156,12 @@ footer a.thick{
     }
 
     .sec-4 #text{
+        /* padding: 1rem 23rem 1rem 1rem; */
+        width: 100%;
+        outline: none;
+        margin-top: 1rem;
+    }
+    .sec-4 #location{
         /* padding: 1rem 23rem 1rem 1rem; */
         width: 100%;
         outline: none;
