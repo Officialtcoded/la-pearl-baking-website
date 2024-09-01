@@ -409,23 +409,23 @@ footer {
     height: 20rem;
 }
 
-footer .nav-menu {
+footer .nav-menu-footer {
     display: flex;
     list-style: none;
     margin-left: 8rem;
 }
 
-footer .nav-item {
+footer .nav-item-footer {
     padding: 0 1.5rem; 
 }
 
- footer .nav-item a {
+ footer .nav-item-footer a {
     text-decoration: none;
     color: #F0F1F3 !important;
     font-size: 1.7rem; 
 }
 
-footer .nav-item a:hover {
+footer .nav-item-footer a:hover {
     color: brown;
 }
 
@@ -855,23 +855,23 @@ footer a.thick{
         height: 20rem;
     }
     
-    footer .nav-menu {
+    footer .nav-menu-footer {
         display: flex;
         list-style: none;
         margin-left: 8rem;
     }
     
-    footer .nav-item {
+    footer .nav-item-footer {
         padding: 0 1.5rem; 
     }
     
-     footer .nav-item a {
+     footer .nav-item-footer a {
         text-decoration: none;
         color: #F0F1F3 !important;
         font-size: 1.7rem; 
     }
     
-    footer .nav-item a:hover {
+    footer .nav-item-footer a:hover {
         color: brown;
     }
     
@@ -1229,8 +1229,9 @@ footer a.thick{
         list-style-type: none;
         background-color: white;
         gap: 6rem;
-        width: 300px;
-        height: 100vh;
+        width: 100vw;
+        overflow: auto;
+        height: 50vh;
         padding-top: 8rem;
         box-shadow: 2px 0px 0px rgba(0,0,0,0.1); 
     }
@@ -1259,6 +1260,8 @@ footer a.thick{
         color: black;
         font-size: 3rem; 
     }
+
+
 
     a.nav-button{
         text-decoration: none;

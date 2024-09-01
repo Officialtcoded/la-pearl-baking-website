@@ -690,23 +690,23 @@ footer {
     height: 20rem;
 }
 
-footer .nav-menu {
+footer .nav-menu-footer {
     display: flex;
     list-style: none;
     margin-left: 8rem;
 }
 
-footer .nav-item {
+footer .nav-item-footer {
     padding: 0 1.5rem; 
 }
 
- footer .nav-item a {
+ footer .nav-item-footer a {
     text-decoration: none;
     color: #F0F1F3 !important;
     font-size: 1.7rem; 
 }
 
-footer .nav-item a:hover {
+footer .nav-item-footer a:hover {
     color: brown;
 }
 
@@ -1417,23 +1417,23 @@ footer {
     height: 20rem;
 }
 
-footer .nav-menu {
+footer .nav-menu-footer {
     display: flex;
     list-style: none;
     margin-left: 8rem;
 }
 
-footer .nav-item {
+footer .nav-item-footer {
     padding: 0 1.5rem; 
 }
 
- footer .nav-item a {
+ footer .nav-item-footer a {
     text-decoration: none;
     color: #F0F1F3 !important;
     font-size: 1.7rem; 
 }
 
-footer .nav-item a:hover {
+footer .nav-item-footer a:hover {
     color: brown;
 }
 
